@@ -70,10 +70,10 @@ modify: ## modify
 	# This invokes the monster modification script
 	# Call the golang code
 	go run import.go
-	mage FixeText
+	mage FixText
 
-modify-text: ## fixe text 
-	mage FixeText
+modify-text: ## fix text 
+	mage FixText
 
 hugo-build: ## hugo-build
 	cd $(LIB) && hugo
@@ -120,17 +120,38 @@ deploy-fb-init:
 	# firebase login
 	firebase login --no-localhost
 
+deploy-fb-ci-init: ## deploy-fb-ci.init
+	# get token 
+	
+
+	firebase projects:list 
+
+
 deploy-fb-console:
 	# opens the web console.
-	open $(FB_PROJ_CONSOLEURL)
+	open $(FB_PROJ_CONSOLEURL)/settings/general
 
-deploy-fb:
+	open $(FB_PROJ_CONSOLEURL)/hosting/main
+
+
+deploy-build:
 	# rebuilds hugo and copies output directory to root of deployment
 	cd $(LIB_FSPATH) && hugo -D
 	ls -al $(LIB_FSPATH)/public
 	# does the actual push deploy to their server.
 	rm -R ./public
 	cp -R $(LIB_FSPATH)/public ./public
-	firebase deploy
+
+deploy-local-fb: deploy-build ## deploy-local-fb
+	firebase serve
+	
+deploy-fb: deploy-build ## deploy-fb
+	
+	## get token
+	firebase login:ci
+
+	#firebase deploy
+	
+	firebase deploy --token $(FIREBASE_TOKEN)
 
 

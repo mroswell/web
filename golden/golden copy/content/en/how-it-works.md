@@ -17,7 +17,7 @@ menu:
 
 ### In 4 ways using 4  motivators (or “Easifying” tools) 
 
-![GetCourageNow Phone Demo!](/images/new-phone-demo.png "GetCourageNow Phone Demo")
+![GetCourageNow Phone Demo!](/images/new-phone-demo-goody.png "GetCourageNow Phone Demo")
 </center>
 
 <table>

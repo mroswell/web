@@ -11,7 +11,7 @@ menu:
     parent: how-it-works
 ---
 
-## We help organizations fighting climate bullies to recruit the millions of people needed to join the fight and give us a better chance of creating serious change. We give people like you more ways and reasons to get involved and save the planet. 
+## We help organisations fighting climate bullies to recruit the millions of people needed to join the fight and give us a better chance of creating serious change. We give people like you more ways and reasons to get involved and save the planet. 
 
 **Pondering whether to sign up to a strike or a nonviolent direct action, but not quite ready to commit? _No Problem!_** 
 
@@ -29,7 +29,7 @@ GetCourageNow will:
 
 - Keep you in the loop with community meetings and nonviolent direct action trainings
 
-- Provide you with a secure networking platform to chat, support, plan, and organize
+- Provide you with a secure networking platform to chat, support, plan, and organise
 
 
 ### See [Getting Started](/getting-started) to download the app and find an action near you. 

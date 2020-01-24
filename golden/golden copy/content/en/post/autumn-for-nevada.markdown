@@ -48,7 +48,7 @@ wordpress_id: 16
 
 ## ...and if you can’t help directly, GetCourageNow will provide you with ways to support those who can.
 
-“In the battle between the forces of good and evil, greed and compassion, only one thing has consistently made the difference—organizing”  
+“In the battle between the forces of good and evil, greed and compassion, only one thing has consistently made the difference—organising”  
 — KURT VONNEGUT
 
 * * *

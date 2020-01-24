@@ -17,5 +17,5 @@ Our team members are based in different parts of the world.
 
 ## Contact Us
 
-If you have any questions that need immediate answers, please email Gary Krane at
-<a href="mailto:gary.krane@getcouragenow.org">gary.krane@getcouragenow.org</a>.
+If you have any questions that need immediate answers, please email us at
+<a href="mailto:contact@getcouragenow.org">contact@getcouragenow.org</a>.

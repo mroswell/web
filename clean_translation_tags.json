@@ -1,28 +1,28 @@
 [
-    { "error": "NOTRANSLATE_", "fixe": "" },
-    { "error": "_NOTRANSLATE", "fixe": "" },
-    { "error": "\" NOTRANSLATE_", "fixe": "" },
-    { "error": "] (", "fixe": "](" },
-    { "error": "/ ", "fixe": "/" },
-    { "error": " /", "fixe": "" },
-    { "error": "„", "fixe": "\"" },
-    { "error": "”", "fixe": "\"" },
-    { "error": "“", "fixe": "\"" },
-    { "error": "«", "fixe": "\"" },
-    { "error": "»", "fixe": "\"" },
-    { "error": "：", "fixe": ": " },
+    { "error": "NOTRANSLATE_", "fix": "" },
+    { "error": "_NOTRANSLATE", "fix": "" },
+    { "error": "\" NOTRANSLATE_", "fix": "" },
+    { "error": "] (", "fix": "](" },
+    { "error": "/ ", "fix": "/" },
+    { "error": " /", "fix": "" },
+    { "error": "„", "fix": "\"" },
+    { "error": "”", "fix": "\"" },
+    { "error": "“", "fix": "\"" },
+    { "error": "«", "fix": "\"" },
+    { "error": "»", "fix": "\"" },
+    { "error": "：", "fix": ": " },
     {
         "error": "** ** GetCourageNow应用！",
-        "fixe": "** GetCourageNow应用！**"
+        "fix": "** GetCourageNow应用！**"
     },
     {
         "error": "ref \"become-a-sponsor.html \"",
-        "fixe": "ref \"become-a-sponsor.html\""
+        "fix": "ref \"become-a-sponsor.html\""
     },
-    { "error": "    menu", "fixe": "menu" },
-    { "error": "  main", "fixe": "  main" },
-    { "error": "    parent", "fixe": "    parent" },
-    { "error": "    weight", "fixe": "    weight" },
-    { "error": "= weight 20", "fixe": "weight = 20" },
-    { "error": "= name \"תרום\"", "fixe": "name = \"תרום\"" }
+    { "error": "    menu", "fix": "menu" },
+    { "error": "  main", "fix": "  main" },
+    { "error": "    parent", "fix": "    parent" },
+    { "error": "    weight", "fix": "    weight" },
+    { "error": "= weight 20", "fix": "weight = 20" },
+    { "error": "= name \"תרום\"", "fix": "name = \"תרום\"" }
 ]

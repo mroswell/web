@@ -1170,7 +1170,7 @@ defined by RFC6960.</p>
 <p>No stipulation.</p>
 <h2 id="5-7-compromise-and-disaster-recovery">5.7 Compromise and disaster recovery</h2>
 <h3 id="5-7-1-incident-and-compromise-handling-procedures">5.7.1 Incident and compromise handling procedures</h3>
-<p>CA organizations shall have an Incident Response Plan and a Disaster Recovery Plan.</p>
+<p>CA organisations shall have an Incident Response Plan and a Disaster Recovery Plan.</p>
 <p>The CA SHALL document a business continuity and disaster recovery procedures designed to notify and reasonably protect Application Software Suppliers, Subscribers, and Relying Parties in the event of a disaster, security compromise, or business failure. The CA is not required to publicly disclose its business continuity plans but SHALL make its business continuity plan and security plans available to the CA’s auditors upon request. The CA SHALL annually test, review, and update these procedures.</p>
 <p>The business continuity plan MUST include:</p>
 <ol>
@@ -1560,12 +1560,12 @@ country in which the CA’s place of business is located.</li>
 <p>This section describes the content requirements for the Root CA, Subordinate CA, and Subscriber Certificates, as they relate to the identification of Certificate Policy.</p>
 <p>The following Certificate Policy identifiers are reserved for use by CAs as an optional means of asserting compliance with these Requirements as follows:</p>
 <blockquote>
-<p>{joint-iso-itu-t(2) international-organizations(23) ca-browser-forum(140) certificate-policies(1) baseline-requirements(2) domain-validated(1)} (2.23.140.1.2.1), if the Certificate complies with these Requirements but lacks Subject Identity Information that is verified in accordance with Section 3.2.2.1 or Section 3.2.3.</p>
+<p>{joint-iso-itu-t(2) international-organisations(23) ca-browser-forum(140) certificate-policies(1) baseline-requirements(2) domain-validated(1)} (2.23.140.1.2.1), if the Certificate complies with these Requirements but lacks Subject Identity Information that is verified in accordance with Section 3.2.2.1 or Section 3.2.3.</p>
 </blockquote>
 <p>If the Certificate asserts the policy identifier of 2.23.140.1.2.1, then it MUST NOT include organizationName, givenName, surname, streetAddress, localityName, stateOrProvinceName, or postalCode in the Subject field.</p>
 <blockquote>
-<p>{joint-iso-itu-t(2) international-organizations(23) ca-browser-forum(140) certificate-policies(1) baseline-requirements(2) organization-validated(2)} (2.23.140.1.2.2), if the Certificate complies with these Requirements and includes Subject Identity Information that is verified in accordance with Section 3.2.2.1.</p>
-<p>{joint‐iso‐itu‐t(2) international‐organizations(23) ca‐browser‐forum(140) certificate‐policies(1) baseline‐requirements(2) individual-validated(3)} (2.23.140.1.2.3), if the Certificate complies with these Requirements and includes Subject Identity Information that is verified in accordance with Section 3.2.3.</p>
+<p>{joint-iso-itu-t(2) international-organisations(23) ca-browser-forum(140) certificate-policies(1) baseline-requirements(2) organization-validated(2)} (2.23.140.1.2.2), if the Certificate complies with these Requirements and includes Subject Identity Information that is verified in accordance with Section 3.2.2.1.</p>
+<p>{joint‐iso‐itu‐t(2) international‐organisations(23) ca‐browser‐forum(140) certificate‐policies(1) baseline‐requirements(2) individual-validated(3)} (2.23.140.1.2.3), if the Certificate complies with these Requirements and includes Subject Identity Information that is verified in accordance with Section 3.2.3.</p>
 </blockquote>
 <p>If the Certificate asserts the policy identifier of 2.23.140.1.2.2, then it MUST also include organizationName, localityName (to the extent such field is required under Section 7.1.4.2.2), stateOrProvinceName (to the extent such field is required under Section 7.1.4.2.2), and countryName in the Subject field.   If the Certificate asserts the policy identifier of 2.23.140.1.2.3, then it MUST also include (i) either organizationName or givenName and surname, (ii) localityName (to the extent such field is required under Section 7.1.4.2.2), (iii) stateOrProvinceName (to the extent required under Section 7.1.4.2.2), and (iv) countryName in the Subject field.</p>
 <h4 id="7-1-6-2-root-ca-certificates">7.1.6.2 Root CA Certificates</h4>

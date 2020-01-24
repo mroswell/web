@@ -8,7 +8,7 @@ beforeColon= ""
 # Weight used for sorting. (alphabetical order using languageCode, with English first)
 weight = 10
 description = """
-  GetCourageNow is a free, mobile friendly, open source, volunteer recruitment app that aims to help climate justice campaigns to organize and commit strikers on a mass scale. 
+  GetCourageNow is a free, mobile friendly, open source, volunteer recruitment app that aims to help climate justice campaigns to organise and commit strikers on a mass scale. 
 """
 
 

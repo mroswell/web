@@ -22,16 +22,16 @@ type errorsModels struct {
 	Errors   []textData `json:"errors"`
 }
 
-func FixeText() {
-	err := fixeText()
+func FixText() {
+	err := fixText()
 	if err != nil {
 		log.Fatal("Could not append i18n ", err)
 	}
 	fmt.Println("Text Fixed successfully!")
 }
 
-func fixeText() error {
-	file, err := os.Open("fixe_text.json")
+func fixText() error {
+	file, err := os.Open("fix_text.json")
 	defer file.Close()
 
 	if err != nil {

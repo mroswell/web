@@ -12,7 +12,7 @@ Let's Encrypt provides rate limits to ensure fair usage by as
 many people as possible. We believe these rate limits are high enough to work
 for most people by default. We've also designed them so renewing a
 certificate almost never hits a rate limit, and so that large
-organizations can gradually increase the number of certificates they can issue
+organisations can gradually increase the number of certificates they can issue
 without requiring intervention from Let's Encrypt.
 
 If you're actively developing or testing a Let's Encrypt client, please utilize
