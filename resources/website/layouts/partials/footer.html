@@ -50,7 +50,7 @@
         <p class="text">{{ .Site.Params.description | safeHTML }}</p>
         <p class="text">
         <div itemscope itemtype="schema.org/PostalAddress">
-          <span itemprop="streetAddress"> {{ .Site.Params.tel }} | <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+          <span itemprop="streetAddress"> {{ .Site.Params.tel }} | {{ .Site.Params.email }}
           </span>
           <span itemprop="addressLocality"></span>
           <span itemprop="addressRegion"></span>

@@ -20,7 +20,7 @@ short_name = "GCN"
 github_username = "github.com/getcouragenow"
 twitter_username = "twitter.com/getcouragenow"
 crowdfunding_url = ""
-email = "Contact@getcouragenow.org"
+email = "contact@getcouragenow.org"
 tel = "+1 (650) 383 8435"
 
 # Date and time formatting, see https://gohugo.io/functions/format/
