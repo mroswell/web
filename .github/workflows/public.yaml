@@ -1,0 +1,71 @@
+# Add FIREBASE_TOKEN to secrets
+name: Build Public
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  build:
+    name: "Build"
+    runs-on: ubuntu-latest
+    env:
+      GOROOT: /usr/local/go
+      GOBIN: /usr/local/go/bin
+      GO111MODULE: auto
+      
+    steps:
+      - name: Cloning repository
+        uses: actions/checkout@v2.0.0
+
+      - name: Cache go
+        id: install-go
+        uses: actions/cache@v1
+        with:
+          path: ${GOROOT}
+          key: ${{ runner.os }}-go
+
+      - name: Set up Go
+        if: steps.install-go.outputs.cache-hit != 'true'
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.14.1
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.69.0"
+
+      - name: build Public
+        run: |
+          hugo -D
+          ls -al public/
+        working-directory: resources/website
+
+      - name: move Public Folder
+        run: cp -R resources/website/public .
+
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: public
+          path: public
+  
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: public
+
+      # - name: Deploy to Firebase
+      #   uses: w9jds/firebase-action@master
+      #   with:
+      #     args: deploy
+      #   env:
+      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
