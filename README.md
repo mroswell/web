@@ -1,6 +1,8 @@
 # GetCourageNow Squarespace-to-Hugo Migration Project
 
-This is a small business template built with [Hugo](https://github.com/gohugoio/hugo) based on [Let's Encrypt](https://github.com/letsencrypt) using content exported from Squarespace.
+## KanBan
+
+https://github.com/orgs/getcouragenow/projects/3
 
 ## Getting started
 
