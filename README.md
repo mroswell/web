@@ -1,4 +1,4 @@
-# GetCourageNow Squarespace-to-Hugo Migration Project
+# GetCourageNow Web
 
 ## KanBan
 
