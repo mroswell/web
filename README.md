@@ -47,11 +47,11 @@ _Makefile_ has all the commands necessary for building, starting server, and dep
 
 -   Run `$ make hugo-open` to launch browser to see the build locally.
 
-## To fixe text on one file:
+## To fix text on one file:
 
-The file `fixe_text.json` is used to replace strings on some files, so how it's work?
+The file `fix_text.json` is used to replace strings on some files, so how it's work?
 
-- `file_path`: adding file path where there is an error an you want to fixe it.
+- `file_path`: adding file path where there is an error an you want to fix it.
 - `errors`: it's an array contains objects where you need to set "old" and "new" string that you want to replace in the `file_path`.
 -  example:
 ```
@@ -62,18 +62,18 @@ The file `fixe_text.json` is used to replace strings on some files, so how it's 
     ]
 }
 ```
-- Run `make modify-text` to fixe and update all strings.
+- Run `make modify-text` to fix and update all strings.
 
-## To fixe text on multiple files:
+## To fix text on multiple files:
 
-The file `clean_translation_tags.json` is used by gsheet import to clean tags used to translate, or fixe translation errors for all the files.
+The file `clean_translation_tags.json` is used by gsheet import to clean tags used to translate, or fix translation errors for all the files.
 ```
 {
     "error": "NOTRANSLATE_",
-    "fixe": ""
+    "fix": ""
 }
 ```
-- Run `make gsheet` to fixe and update `outputs` folder.
+- Run `make gsheet` to fix and update `outputs` folder.
 
 ## Deployment
 
